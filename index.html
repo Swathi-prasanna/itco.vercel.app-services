@@ -1,1872 +1,1742 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ITCO - IT Services</title>
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-  <title>ITCO Navbar</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flaticon.css">
 
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  >
+    <!-- Icons (Bootstrap Icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+    <link rel="stylesheet" href="style.css">
 
-  <!-- CSS FILE -->
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
 </head>
 
 <body>
+    <header class="itco-header-area" id="mainHeader">
+    <div class="itco-topbar-area">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
 
-  <!-- ================= TOPBAR START ================= -->
+                <div class="itco-topbar-area-left">
+                    <span><i class="fa-solid fa-location-dot"></i> Jones Street, New York, USA</span>|&emsp;
 
-  <div class="topbar">
+                    <span><i class="fa-regular fa-envelope"></i> info@example.com</span>|&emsp;
 
-    <div class="container-fluid">
+                    <span><i class="fa-solid fa-phone"></i> +70 264 566 579</span>
+                </div>
 
-      <div class="row align-items-center">
+                <div class="itco-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
 
-        <!-- LEFT -->
+            </div>
+        </div>
+    </div>
 
-        <div class="col-lg-8">
+<div class="container mt-3">
+    <nav class="navbar navbar-expand-lg itco-navbar">
 
-          <div class="top-info">
+        <a class="navbar-brand" href="#">
+            <img src="./itco.vercel.app/image (1).png" alt="imge">
+        </a>
 
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-              Jones Street, New York, USA
-            </span>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
 
-            <span>
-              <i class="fa-regular fa-envelope"></i>
-              Info@example.com
-            </span>
+            <span class="navbar-toggler-icon"></span>
 
-            <span>
-              <i class="fa-solid fa-phone"></i>
-              +70 264 566 579
-            </span>
+        </button>
 
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-success"
+                        href="home.html">
+
+                        Home
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home One
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Two
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="services.html">
+
+                        Services
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="service-details.html">
+                                Services Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="pages.html">
+
+                        Pages
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="team.html">
+                                Team
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Team Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="projects.html">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Projects Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Testimonials
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Price Plan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                404
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="#">
+
+                        Blog
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="blog.html">
+                                Blog Grid
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="blog-details.html">
+                                Blog Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="#" class="itco-quote-btn">
+                Get A Free Quote
+            </a>
 
         </div>
 
+    </nav>
+</div>
+</header>
 
-        <!-- RIGHT -->
+    <!-- =========================
+        HERO SECTION
+    ========================== -->
+    <section class="itco-hero-section">
+        <div class="container">
 
-        <div class="col-lg-4 text-end">
+            <div class="row align-items-center">
 
-          <div class="social-icons">
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6">
 
-            <a href="#">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
+                    <h5 class="small-heading">
+                        IT solutions for the new era
+                    </h5>
 
-            <a href="#">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
+                    <h1 class="itco-hero-title">
+                        Beautiful IT services <br>
+                        for your success
+                    </h1>
 
-            <a href="#">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
+                    <p class="hero-text">
+                        Leverage agile frameworks to provide a robust synopsis
+                        for high level overviews iterative approaches bring
+                        table survival.
+                    </p>
 
-            <a href="#">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+                    <div class="itco-hero-buttons">
 
-          </div>
+                        <a href="#" class="read-btn">
+                            Read More
+                        </a>
+
+                        <a href="#" class="play-btn">
+                            <span class="play-icon">
+                                <i class="fa-solid fa-play"></i>
+                            </span>
+
+                            Play Intro
+                        </a>
+
+                    </div>
+
+                    <!-- TEAM BOX -->
+                    <div class="itco-team-box">
+
+                        <div class="avatars">
+                            <img src="./itco.vercel.app/image (2).png" alt="img">
+                            <img src="./itco.vercel.app/image (3).png" alt="img">
+                            <img src="./itco.vercel.app/image (3).png" alt="img">
+                            <img src="./itco.vercel.app/image (4).png" alt="img">
+                            <img src="./itco.vercel.app/image (5).png" alt="img">
+                        </div>
+
+                        <div class="team-content">
+                            <h2>36k+</h2>
+                            <p>Team Members</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="col-lg-6">
+
+                    <div class="itco-hero-image-wrapper">
+
+                        <div class="hero-image1">
+                            <img src="./itco.vercel.app/image (7).png" alt="" class="styled-image">
+                        </div>
+
+                        <!-- GRAPH CARD -->
+                        <div class=".itco-graph-card">
+
+                            <img src="./itco.vercel.app/image (8).png">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
+    </section>
 
-      </div>
 
+<section class="about-section">
+<div class="container">
+<div class="row align-items-center">
+
+    <!-- LEFT SIDE -->
+    <div class="col-lg-6">
+        <div class="image-wrapper">
+
+            <div class="decor-lines"></div>
+
+            <div class="big-circle">
+                <img src="./itco.vercel.app/image (18).png" alt="">
+            </div>
+
+            <div class="small-circle">
+                <img src="./itco.vercel.app/image (10).png" alt="">
+            </div>
+
+        </div>
     </div>
 
-  </div>
-
-
-
-
-
-  <!-- ================= NAVBAR START ================= -->
-
-  <nav class="navbar navbar-expand-lg main-navbar">
-
-    <div class="container-fluid">
-
-      <!-- LOGO -->
-
-      <a class="navbar-brand" href="#">
-
-        <img
-          src="https://itco.vercel.app/assets/images/logo.png"
-          alt="logo"
-          class="logo"
-        >
-
-      </a>
-
-
-      <!-- MOBILE BUTTON -->
-
-      <button class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav">
-
-        <span class="navbar-toggler-icon"></span>
-
-      </button>
-
-
-      <!-- MENU -->
-
-      <div class="collapse navbar-collapse justify-content-center"
-           id="navbarNav">
-
-        <ul class="navbar-nav">
-
-
-          <!-- HOME -->
-
-          <li class="nav-item dropdown">
-
-            <a class="nav-link active dropdown-toggle"
-               href="#"
-               data-bs-toggle="dropdown">
-
-              Home
-
-            </a>
-
-            <ul class="dropdown-menu">
-
-              <li>
-                <a class="dropdown-item active-item"
-                   href="#">
-                   Home One
-                </a>
-              </li>
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Home Two
-                </a>
-              </li>
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Home Three
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-
-
-          <!-- ABOUT -->
-
-          <li class="nav-item">
-
-            <a class="nav-link" href="#">
-              About
-            </a>
-
-          </li>
-
-
-
-          <!-- SERVICES -->
-
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle"
-               href="#"
-               data-bs-toggle="dropdown">
-
-              Services
-
-            </a>
-
-            <ul class="dropdown-menu">
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Services
-                </a>
-              </li>
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Service Details
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-
-
-          <!-- PAGES -->
-
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle"
-               href="#"
-               data-bs-toggle="dropdown">
-
-              Pages
-
-            </a>
-
-            <ul class="dropdown-menu">
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Team
-                </a>
-              </li>
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Pricing
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-
-
-          <!-- BLOG -->
-
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle"
-               href="#"
-               data-bs-toggle="dropdown">
-
-              Blog
-
-            </a>
-
-            <ul class="dropdown-menu">
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Blog Grid
-                </a>
-              </li>
-
-              <li>
-                <a class="dropdown-item"
-                   href="#">
-                   Blog Details
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-
-
-          <!-- CONTACT -->
-
-          <li class="nav-item">
-
-            <a class="nav-link" href="#">
-              Contact
-            </a>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-
-
-      <!-- BUTTON -->
-
-      <a href="#" class="quote-btn">
-
-        Get A Free Quote
-
-      </a>
-
-    </div>
-
-  </nav>
-  <section class="hero-section">
-
-    <div class="container">
-
-      <div class="row align-items-center">
-
-        <!-- LEFT CONTENT -->
-
-        <div class="col-lg-6">
-
-          <div class="hero-content">
-
-            <span class="hero-subtitle">
-              IT solutions for the new era
-            </span>
-
-            <h1>
-              Beautiful IT services for your success
-            </h1>
-
-            <p>
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches bring table survival
-              strategies.
+    <!-- RIGHT SIDE -->
+    <div class="col-lg-6">
+        <div class="content">
+
+            <div class="sub-title">About Your Company</div>
+
+            <div class="main-title">
+                We Execute Our ideas From The Start to Finish
+            </div>
+
+            <p class="about-text">
+                Solve Business Problems And Automate Workflows With Artificial Work Intelligence-Based Solutions.
+                Unlock The Hidden Power Of The Data You Already Have And Hand Hampers The Creativity.
             </p>
 
-            <div class="hero-buttons">
-
-              <a href="#" class="theme-btn">
-                Read More
-              </a>
-
-              <div class="video-btn-area">
-
-                <a href="#" class="video-btn">
-                  <i class="fas fa-play"></i>
-                </a>
-
-                <span>Play Intro</span>
-
-              </div>
-
+            <div class="list">
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Development of Financial Models</b> <br>
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Nifty team is a diverse network of consultants</b> <br>
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Industry professionals with a global mindset</b>
             </div>
 
-            <!-- TEAM MEMBERS -->
-
-            <div class="team-wrapper">
-
-              <div class="team-images">
-
-                <img src="./itco.vercel.app/image (2).png" alt="">
-
-                <img src="./itco.vercel.app/image (3).png" alt="">
-
-                <img src="./itco.vercel.app/image (4).png" alt="">
-
-                <img src="./itco.vercel.app/image (3).png" alt="">
-
-                <img src="./itco.vercel.app/image (6).png" alt="">
-
-              </div>
-
-              <div class="team-text">
-
-                <h4>36k+</h4>
-
-                <p>Team Members</p>
-
-              </div>
-
-            </div>
-
-          </div>
+            <button class="btn-custom">Read More</button>
 
         </div>
-
-        <!-- RIGHT IMAGE -->
-
-        <div class="col-lg-6">
-
-          <div class="hero-image">
-
-            <img
-              src="./itco.vercel.app/image (7).png"
-              class="main-image"
-              alt="">
-
-            <div class="small-image">
-
-              <img
-                src="./itco.vercel.app/image (8).png"
-                alt="">
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
     </div>
 
-  </section>
-   
+</div>
+</div>
+</section>
 
 
+<section class="services-section">
+<div class="container">
+<div class="row align-items-center">
 
-   
+<!-- LEFT SIDE -->
+<div class="col-lg-6">
 
-  <!-- ================= ABOUT SECTION ================= -->
+    <div class="itco-small-title">Our latest services</div>
 
-  <section class="about-section">
-    <div class="container">
-
-      <div class="row align-items-center">
-
-        <!-- LEFT IMAGE -->
-        <div class="col-lg-6 mb-5 mb-lg-0">
-
-          <div class="about-image-box">
-
-            <!-- Main Image -->
-            <img
-              src="./itco.vercel.app/image (9).png"
-              alt=""
-              class="main-img"
-            >
-
-            <!-- Small Image -->
-            <img
-              src="./itco.vercel.app/image (10).png"
-              alt=""
-              class="small-img"
-            >
-
-            <!-- Shape -->
-            <div class="line-shape"></div>
-
-          </div>
-
-        </div>
-
-        <!-- RIGHT CONTENT -->
-        <div class="col-lg-6">
-
-          <div class="about-content">
-
-            <h5>About Your Company</h5>
-
-            <h1>
-              We Execute Our ideas
-              From The Start to Finish
-            </h1>
-
-            <p>
-              Solve Business Problems And Automate Workflows With Artificial
-              Work Intelligence-Based Solutions. Unlock The Hidden Power Of
-              The Data You Already Have And Hand Hampers The Creativity.
-            </p>
-
-            <!-- LIST -->
-            <ul class="about-list">
-              <li>
-                <i class="bi bi-check-square-fill"></i>
-                Development of Financial Models
-              </li>
-
-              <li>
-                <i class="bi bi-check-square-fill"></i>
-                Nifty team is a diverse network of consultants
-              </li>
-
-              <li>
-                <i class="bi bi-check-square-fill"></i>
-                Industry professionals with a global mindset
-              </li>
-            </ul>
-
-            <!-- BUTTON -->
-            <a href="#" class="about-btn">
-              Read More
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </section> 
- 
-
-  <!-- SERVICES SECTION -->
-  <section class="services-section">
-    <div class="container">
-
-      <div class="row align-items-center">
-
-        <!-- LEFT CONTENT -->
-        <div class="col-lg-5 mb-5 mb-lg-0">
-
-          <p class="small-title">Our latest services</p>
-
-          <h1 class="main-title">
-            Our clients are the best at IT Management
-          </h1>
-
-          <p class="description">
-            Our custom software design and development teams can design,
-            build, test and deliver a product that fits both your vision
-            and market demand. With our support, you will find customers,
-            build income and attract new investors.
-          </p>
-
-          <a href="#" class="service-btn">
-            View All Services
-          </a>
-
-        </div>
-
-        <!-- RIGHT SERVICES -->
-        <div class="col-lg-7">
-
-          <!-- ITEM 1 -->
-          <div class="service-item">
-
-            <div class="service-left">
-
-              <div class="icon-box">
-                <i class="bi bi-code-slash"></i>
-              </div>
-
-              <div>
-                <h3>Software Development</h3>
-                <p>Indeed vanity excuse or mr lovers of on.</p>
-              </div>
-
-            </div>
-
-            <div class="arrow">
-              <i class="bi bi-arrow-up-right"></i>
-            </div>
-
-          </div>
-
-          <!-- ITEM 2 -->
-          <div class="service-item">
-
-            <div class="service-left">
-
-              <div class="icon-box">
-                <i class="bi bi-bar-chart"></i>
-              </div>
-
-              <div>
-                <h3>Data Analysis</h3>
-                <p>Indeed vanity excuse or mr lovers of on.</p>
-              </div>
-
-            </div>
-
-            <div class="arrow active-arrow">
-              <i class="bi bi-arrow-up-right"></i>
-            </div>
-
-          </div>
-
-          <!-- ITEM 3 -->
-          <div class="service-item">
-
-            <div class="service-left">
-
-              <div class="icon-box">
-                <i class="bi bi-phone"></i>
-              </div>
-
-              <div>
-                <h3>App Development</h3>
-                <p>Indeed vanity excuse or mr lovers of on.</p>
-              </div>
-
-            </div>
-
-            <div class="arrow">
-              <i class="bi bi-arrow-up-right"></i>
-            </div>
-
-          </div>
-
-          <!-- ITEM 4 -->
-          <div class="service-item border-0">
-
-            <div class="service-left">
-
-              <div class="icon-box">
-                <i class="bi bi-code-slash"></i>
-              </div>
-
-              <div>
-                <h3>Software Development</h3>
-                <p>Indeed vanity excuse or mr lovers of on.</p>
-              </div>
-
-            </div>
-
-            <div class="arrow">
-              <i class="bi bi-arrow-up-right"></i>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- NEWSLETTER SECTION -->
-
-  <section class="newsletter-section">
-
-    <div class="container-fluid p-0">
-
-      <div class="row g-0 align-items-center">
-
-        <!-- LEFT IMAGE -->
-
-        <div class="col-lg-6">
-
-          <div class="newsletter-image">
-
-            <img src="./itco.vercel.app/image (20).png">
-
-            <!-- PLAY BUTTON -->
-
-            <div class="play-btn">
-              <i class="bi bi-play-fill"></i>
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- RIGHT CONTENT -->
-
-        <div class="col-lg-6">
-
-          <div class="newsletter-content">
-
-            <h2>Subscribe to Our Newsletter</h2>
-
-            <p>
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page when looking at its layout.
-            </p>
-
-            <!-- FORM -->
-
-            <form class="newsletter-form">
-
-              <input type="email"
-              placeholder="Enter Your Email">
-
-              <button type="submit">
-                Subscribe Now
-              </button>
-
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-
+    <div class="main-title">
+        Our clients are the best at IT Management
     </div>
 
-  </section>
-   
+    <p class="desc-text">
+        Our Custom Software Design And Development Teams Can Design, Build, Test, And Deliver A Product That Fits Both Your Vision And With Market Demand. With Our Support, You Will Find Customers, Build Income And Attract New Investors.
+    </p>
 
-  <!-- PROJECT SECTION -->
+    <button class="btn-green">View All Services</button>
 
-  <section class="project-section">
+</div>
 
-    <div class="container">
+<!-- RIGHT SIDE -->
+<div class="col-lg-6">
 
-      <!-- TOP CONTENT -->
+    <!-- ITEM 1 -->
+    <div class="itco-service-item">
 
-      <div class="project-header">
+        <div class="left-group">
+            <div class="icon-box">
+                 <i class="bi bi-display"></i>
+                
+            </div>
 
-        <div>
-          <p class="small-title">Latest Project</p>
-
-          <h2 class="main-title">
-            Let’s Looks Our Global Projects
-          </h2>
+            <div class="service-text">
+                <h5>Software Development</h5>
+                <p>Indeed vanity excuse or mr lovers of on.</p>
+            </div>
         </div>
 
-        <!-- ARROWS -->
+        <i class="bi bi-arrow-up-right arrow-icon"></i>
+    </div>
 
-        <div class="arrow-buttons">
+    <!-- ITEM 2 -->
+    <div class="itco-service-item">
 
-          <button>
-            <i class="bi bi-arrow-left"></i>
-          </button>
-
-          <button>
-            <i class="bi bi-arrow-right"></i>
-          </button>
-
-        </div>
-
-      </div>
-
-      <!-- PROJECT CARDS -->
-
-      <div class="row g-4">
-
-        <!-- CARD 1 -->
-
-        <div class="col-lg-4 col-md-6">
-
-          <div class="project-card">
-
-            <img src="./itco.vercel.app/image (11).png"
-            alt="project">
-            <div class="project-overlay">
-
-              <div>
-                <h4>Project Development</h4>
-                <p>IT Management</p>
-              </div>
-
-              <div class="overlay-arrow">
-                <i class="bi bi-arrow-up-right"></i>
-              </div>
+        <div class="left-group">
+            <div class="icon-box">
+                 <i class="bi bi-bar-chart"></i>
 
             </div>
 
-
-          </div>
-
+            <div class="service-text">
+                <h5>Data Analysis</h5>
+                <p>Indeed vanity excuse or mr lovers of on.</p>
+            </div>
         </div>
 
-        <!-- CARD 2 -->
+        <i class="bi bi-arrow-up-right arrow-icon"></i>
+    </div>
 
-        <div class="col-lg-4 col-md-6">
+    <!-- ITEM 3 -->
+    <div class="itco-service-item" style="border-bottom:none;">
 
-          <div class="project-card active-card">
+        <div class="left-group">
+            <div class="icon-box">
+              <i class="bi bi-phone"></i>
+            </div>
 
-            <img src="./itco.vercel.app/image (12).png"
-            alt="project">
+            <div class="service-text">
+                <h5>App Development</h5>
+                <p>Indeed vanity excuse or mr lovers of on.</p>
+            </div>
+        </div>
 
-            <!-- OVERLAY -->
+        <i class="bi bi-arrow-up-right arrow-icon"></i>
+    </div>
 
-            <div class="project-overlay">
+    <!-- ITEM 4 -->
+    <div class="itco-service-item">
 
-              <div>
-                <h4>Project Development</h4>
-                <p>IT Management</p>
-              </div>
-
-              <div class="overlay-arrow">
-                <i class="bi bi-arrow-up-right"></i>
-              </div>
+        <div class="left-group">
+            <div class="icon-box">
+                  <i class="bi bi-code-slash"></i>
 
             </div>
 
-          </div>
-
+            <div class="service-text">
+                <h5>Software Development</h5>
+                <p>Indeed vanity excuse or mr lovers of on.</p>
+            </div>
         </div>
 
-        <!-- CARD 3 -->
+        <i class="bi bi-arrow-up-right arrow-icon"></i>
+    </div>
 
-        <div class="col-lg-4 col-md-6">
+</div>
 
-          <div class="project-card">
+</div>
+</div>
+</section>
 
-            <img src="./itco.vercel.app/image (13).png"
-            alt="project">
+
+    <section class="newsletter-section">
+        <div class="container-fluid px-0">
+            <div class="row g-0 newsletter-wrapper">
+
+                <!-- Left Image -->
+                <div class="col-lg-6">
+                    <div class="newsletter-image">
+
+                        <!-- Replace this image -->
+                        <img src="./itco.vercel.app/image (20).png">
+
+                        <!-- Play Button -->
+                        <div class="plays-btn"></div>
+
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6">
+                    <div class="newsletter-content">
+
+                        <h2>
+                            Subscribe to Our <br>
+                            Newsletter
+                        </h2>
+
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+
+                        <form class="newsletter-form">
+
+                            <input 
+                                type="email" 
+                                placeholder="Enter Your Email"
+                                required
+                            >
+
+                            <button type="submit">
+                                Subscribe Now
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-section">
+
+        <div class="container-fluid px-lg-5 px-4">
+
+            <!-- Top Content -->
+            <div class="row align-items-end mb-5">
+
+                <div class="col-lg-8">
+
+                    <h6 class="section-subtitle">
+                        Latest Project
+                    </h6>
+
+                    <h2 class="section-title">
+                        Let’s Looks Our Global <br>
+                        Projects
+                    </h2>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="arrow-wrapper">
+
+                        <button class="arrow-btn">
+                            <i class="bi bi-arrow-left"></i>
+                        </button>
+
+                        <button class="arrow-btn">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project Cards -->
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img 
+                            src="./itco.vercel.app/image (11).png">
+
                         <div class="project-overlay">
 
-              <div>
-                <h4>Project Development</h4>
-                <p>IT Management</p>
-              </div>
+                            <div>
 
-              <div class="overlay-arrow">
-                <i class="bi bi-arrow-up-right"></i>
-              </div>
+                                <h4>
+                                    Project Development
+                                </h4>
+
+                                <p>
+                                    It Management
+                                </p>
+
+                            </div>
+
+                            <a href="#" class="project-link">
+                                ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img 
+                            src="./itco.vercel.app/image (12).png">
+
+                        <div class="project-overlay">
+
+                            <div>
+
+                                <h4>
+                                    Project Development
+                                </h4>
+
+                                <p>
+                                    It Management
+                                </p>
+
+                            </div>
+
+                            <a href="#" class="project-link">
+                                ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img 
+                            src="./itco.vercel.app/image (13).png" 
+                            alt="Project Image"
+                        >
+
+                        <div class="project-overlay">
+
+                            <div>
+
+                                <h4>
+                                    Project Development
+                                </h4>
+
+                                <p>
+                                    It Management
+                                </p>
+
+                            </div>
+
+                            <a href="#" class="project-link">
+                                ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
+        </div>
 
-          </div>
+    </section>
+
+    <section class="business-wrapper">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-7">
+
+                    <h6 class="section-subtitle">
+                        Business Process
+                    </h6>
+
+                    <h2 class="section-titles">
+                        Easy Way Build Success <br>
+                        your Buisness Pla
+                    </h2>
+
+                    <p class="section-description">
+                        Solve Business Problems And Automate Workflows With Artificial Intelligence-Based Solutions. Unlock The Hidden Power Of The Data You Already Have And Hand.
+                    </p>
+
+                    <!-- Progress 1 -->
+                    <div class="progress-item">
+
+                        <h5 class="progress-title">
+                            Productivity
+                        </h5>
+
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:80%;">
+
+                                <div class="progress-percent">
+                                    80%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Progress 2 -->
+                    <div class="progress-item">
+
+                        <h5 class="progress-title">
+                            Digital Marketing
+                        </h5>
+
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:75%;">
+
+                                <div class="progress-percent">
+                                    75%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Progress 3 -->
+                    <div class="progress-item">
+
+                        <h5 class="progress-title">
+                            Technology
+                        </h5>
+
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:90%;">
+
+                                <div class="progress-percent">
+                                    90%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-4">
+
+                    <div class="business-image">
+
+                        <img 
+                            src="./itco.vercel.app/image (14).png">
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
-      </div>
+    <!-- Counter Section -->
 
+        <div class="container">
+
+            <div class="counter-box">
+
+                <div class="row text-center text-lg-start">
+
+                    <!-- Counter 1 -->
+                    <div class="col-lg-4 col-md-3">
+
+                        <div class="counter-item">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-gear-wide-connected"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    200+
+                                </h2>
+
+                                <p>
+                                    Team Member
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Counter 2 -->
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="counter-item">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-handshake"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    25K+
+                                </h2>
+
+                                <p>
+                                    Complete Project
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Counter 3 -->
+                    <div class="col-lg-4 col-md-12">
+
+                        <div class="counter-item counter-border-none">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-people"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    18K+
+                                </h2>
+
+                                <p>
+                                    Client Review
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="pricing">
+
+    <h5>Our Pricing</h5>
+
+    <h2>Find the Right Plan</h2>
+
+    <div class="container pt-5">
+
+        <div class="row justify-content-center g-4">
+
+            <!-- Basic Plan -->
+            <div class="col-lg-4 col-md-4">
+
+                <div class="itco-pricing-box">
+
+                    <div class="top-section basic-bg">
+
+                        <h2 class="plan-title">Basic Plan</h2>
+
+                        <div class="price">
+                            <sup style="font-size:30px">$</sup>110
+                            <div class="month" style="color:#25b2a2;">
+                                /Per Month
+                            </div>
+                        </div>
+
+                        <button class="discover-btn"
+                            style="background-color: #e3f9f5; color: black; border: 1px solid #16a571;">
+                            Discover More
+                        </button>
+
+                    </div>
+
+                    <div class="bottom-section">
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 10 Ranking Guarantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Weekly Reporting</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 10 Ranking Gaurantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Unlimited Users</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Popular Plan -->
+            <div class="col-lg-4 col-md-4">
+
+                <div class="itco-pricing-box">
+
+                    <div class="top-section popular-bg">
+
+                        <h2 class="plan-title">Popular</h2>
+
+                        <div class="price">
+                            <sup style="font-size:30px">$</sup>210
+                            <div class="month" style="color:#16a571;">
+                                /Per Month
+                            </div>
+                        </div>
+
+                        <button class="discover-btn"
+                            style="background-color: #16a571; color: white;">
+                            Discover More
+                        </button>
+
+                    </div>
+
+                    <div class="bottom-section">
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 10 Ranking Guarantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Weekly Reporting</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 10 Ranking Gaurantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Unlimited Users</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Custom Plan -->
+            <div class="col-lg-4 col-md-4">
+
+                <div class="itco-pricing-box">
+
+                    <div class="top-section custom-bg">
+
+                        <h2 class="plan-title">Custom</h2>
+
+                        <div class="price">
+                            <sup style="font-size:30px">$</sup>310
+                            <div class="month" style="color:#25b2a2;">
+                                /Per Month
+                            </div>
+                        </div>
+
+                        <button class="discover-btn"
+                            style="background-color: #e3f9f5; color: black; border: 1px solid #16a571;">
+                            Discover More
+                        </button>
+
+                    </div>
+
+                    <div class="bottom-section">
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 10 Ranking Guarantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Weekly Reporting</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Key Words Optimized</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Top 1 Ranking Gaurantee</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <img src="https://itco.vercel.app/_next/static/media/checked.51ceac40.svg">
+                            <span>Unlimited Users</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
 
-  </section>
-   
-
-  <!-- BUSINESS SECTION -->
-
-  <section class="business-section">
+<section class="set">
 
     <div class="container">
 
-      <div class="row align-items-center g-5">
-
-        <!-- LEFT CONTENT -->
-
-        <div class="col-lg-6">
-
-          <p class="section-subtitle">
-            Business Process
-          </p>
-
-          <h1 class="section-title">
-            Easy Way Build Success your Business Pla
-          </h1>
-
-          <p class="section-text">
-            Solve Business Problems And Automate Workflows With
-            Artificial Intelligence-Based Solutions. Unlock The
-            Hidden Power Of The Data You Already Have And Hand.
-          </p>
-
-          <!-- PROGRESS ITEM -->
-
-          <div class="progress-wrapper">
-
-            <div class="progress-title">
-              <span>Productivity</span>
-              <span class="progress-percent">80%</span>
-            </div>
-
-            <div class="custom-progress">
-              <div class="custom-bar progress-80"></div>
-            </div>
-
-          </div>
-
-          <!-- PROGRESS ITEM -->
-
-          <div class="progress-wrapper">
-
-            <div class="progress-title">
-              <span>Digital Marketing</span>
-              <span class="progress-percent">75%</span>
-            </div>
-
-            <div class="custom-progress">
-              <div class="custom-bar progress-75"></div>
-            </div>
-
-          </div>
-
-          <!-- PROGRESS ITEM -->
-
-          <div class="progress-wrapper">
-
-            <div class="progress-title">
-              <span>Technology</span>
-              <span class="progress-percent">90%</span>
-            </div>
-
-            <div class="custom-progress">
-              <div class="custom-bar progress-90"></div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- RIGHT IMAGE -->
-
-        <div class="col-lg-6">
-
-          <div class="business-image">
-
-            <img src="./itco.vercel.app/image (22).png"
-            alt="Business Image">
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-   
-
-  <!-- LIGHT BACKGROUND -->
-  <section class="counter-bg"></section>
-
-  <!-- COUNTER SECTION -->
-  <section class="counter-wrapper">
-
-    <div class="container">
-
-      <div class="counter-box">
-
-        <div class="row text-center align-items-center">
-
-          <!-- ITEM 1 -->
-          <div class="col-lg-4">
-            <div class="counter-item border-end-custom">
-
-              <div class="counter-icon">
-                <i class="bi bi-gear-wide-connected"></i>
-              </div>
-
-              <div>
-                <h2 class="counter-number">200+</h2>
-                <p class="counter-text">Team Member</p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- ITEM 2 -->
-          <div class="col-lg-4">
-            <div class="counter-item border-end-custom">
-
-              <div class="counter-icon">
-                <i class="bi bi-handshake"></i>
-              </div>
-
-              <div>
-                <h2 class="counter-number">25K+</h2>
-                <p class="counter-text">Complete Project</p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- ITEM 3 -->
-          <div class="col-lg-4">
-            <div class="counter-item">
-
-              <div class="counter-icon">
-                <i class="bi bi-people"></i>
-              </div>
-
-              <div>
-                <h2 class="counter-number">18K+</h2>
-                <p class="counter-text">Client Review</p>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PRICING SECTION -->
-  <section class="pricing-section">
-
-    <div class="container">
-
-      <div class="row g-4">
-
-        <!-- CARD 1 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="pricing-card">
-
-            <!-- TOP -->
-            <div class="pricing-top">
-
-              <h3>Basic Plan</h3>
-
-              <div class="price">
-
-                <sup>$</sup>
-                110
-
-                <span>/Per Month</span>
-
-              </div>
-
-              <a href="#" class="pricing-btn">
-                Discover More
-              </a>
-
-            </div>
-
-            <!-- BOTTOM -->
-            <div class="pricing-bottom">
-
-              <ul>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Weekly Reporting
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Unlimited users
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="pricing-card active-card">
-
-            <!-- TOP -->
-            <div class="pricing-top dark-bg">
-
-              <h3>Popular</h3>
-
-              <div class="price active-price">
-
-                <sup>$</sup>
-                210
-
-                <span>/Per Month</span>
-
-              </div>
-
-              <a href="#" class="pricing-btn active-btn">
-                Discover More
-              </a>
-
-            </div>
-
-            <!-- BOTTOM -->
-            <div class="pricing-bottom">
-
-              <ul>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Weekly Reporting
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Unlimited users
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="pricing-card">
-
-            <!-- TOP -->
-            <div class="pricing-top">
-
-              <h3>Custom</h3>
-
-              <div class="price">
-
-                <sup>$</sup>
-                310
-
-                <span>/Per Month</span>
-
-              </div>
-
-              <a href="#" class="pricing-btn">
-                Discover More
-              </a>
-
-            </div>
-
-            <!-- BOTTOM -->
-            <div class="pricing-bottom">
-
-              <ul>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Weekly Reporting
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Key Words Optimized
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Top 10 Ranking Guarantee
-                </li>
-
-                <li>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Unlimited users
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- CLIENT SECTION -->
-  <section class="client-section">
-
-    <div class="container">
-
-      <!-- TEXT -->
-      <div class="client-text">
-
-        <h3>
-          We have more than
-          <span>270+</span>
-          Happy Customers
-          <br>
-          with satisfaction
-        </h3>
-
-      </div>
-
-      <!-- LOGOS -->
-      <div class="row align-items-center justify-content-center text-center g-4">
-
-        <!-- LOGO 1 -->
-        <div class="col-lg-2 col-md-4 col-6">
-
-          <div class="logo-box">
-            <img
-              src="./itco.vercel.app/brand1.png"
-              alt="logo"
-              class="img-fluid"
-            >
-          </div>
-
-        </div>
-
-        <!-- LOGO 2 -->
-        <div class="col-lg-2 col-md-4 col-6">
-
-          <div class="logo-box">
-            <img
-              src="./itco.vercel.app/brand2.png"
-              alt="logo"
-              class="img-fluid"
-            >
-          </div>
-
-        </div>
-
-        <!-- LOGO 3 -->
-        <div class="col-lg-2 col-md-4 col-6">
-
-          <div class="logo-box">
-            <img
-              src="./itco.vercel.app/brand3.png"
-              alt="logo"
-              class="img-fluid"
-            >
-          </div>
-
-        </div>
-
-        <!-- LOGO 4 -->
-        <div class="col-lg-2 col-md-4 col-6">
-
-          <div class="logo-box">
-            <img
-              src="./itco.vercel.app/brand4.png"
-              alt="logo"
-              class="img-fluid"
-            >
-          </div>
-
-        </div>
-
-        <!-- LOGO 5 -->
-        <div class="col-lg-2 col-md-4 col-6">
-
-          <div class="logo-box">
-            <img
-              src="./itco.vercel.app/brand5.png"
-              alt="logo"
-              class="img-fluid"
-            >
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-   
-
-  <!-- TESTIMONIAL SECTION -->
-  <section class="testimonial-section">
-
-    <div class="container">
-
-      <!-- TITLE -->
-      <div class="section-title text-center">
-
-        <h5>Clients Testimonials</h5>
-
-        <h2>What Our Customers Say</h2>
-
-      </div>
-
-      <!-- TESTIMONIAL CARDS -->
-      <div class="row g-4">
-
-        <!-- CARD 1 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="testimonial-card">
-
-            <!-- CONTENT -->
-            <div class="testimonial-content">
-
-              <div class="top-area">
-
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                </div>
-
-                <div class="quote-icon">
-                  <i class="bi bi-quote"></i>
-                </div>
-
-              </div>
-
-              <p>
-                “I requested a UI update gig and received
-                job excellent from Maria! talented young
-                UI/UX designer who will beat your
-                expectation! and quick feedback. Will
-                definitely work with again!”
-              </p>
-
-            </div>
-
-            <!-- USER -->
-            <div class="testimonial-user">
-
-              <img
-                src="https://randomuser.me/api/portraits/women/44.jpg"
-                alt=""
-              >
-
-              <div>
-
-                <h4>Rosy Flower Gaggero</h4>
-
-                <span>CEO And Founder</span>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="testimonial-card">
-
-            <!-- CONTENT -->
-            <div class="testimonial-content">
-
-              <div class="top-area">
-
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                </div>
-
-                <div class="quote-icon">
-                  <i class="bi bi-quote"></i>
-                </div>
-
-              </div>
-
-              <p>
-                “I requested a UI update gig and received
-                job excellent from Maria! talented young
-                UI/UX designer who will beat your
-                expectation! and quick feedback. Will
-                definitely work with again!”
-              </p>
-
-            </div>
-
-            <!-- USER -->
-            <div class="testimonial-user">
-
-              <img
-                src="https://randomuser.me/api/portraits/men/32.jpg"
-                alt=""
-              >
-
-              <div>
-
-                <h4>Joshua Liddell</h4>
-
-                <span>Company Owner</span>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="col-lg-4 col-md-6">
-
-          <div class="testimonial-card">
-
-            <!-- CONTENT -->
-            <div class="testimonial-content">
-
-              <div class="top-area">
-
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                </div>
-
-                <div class="quote-icon">
-                  <i class="bi bi-quote"></i>
-                </div>
-
-              </div>
-
-              <p>
-                “I requested a UI update gig and received
-                job excellent from Maria! talented young
-                UI/UX designer who will beat your
-                expectation! and quick feedback. Will
-                definitely work with again!”
-              </p>
-
-            </div>
-
-            <!-- USER -->
-            <div class="testimonial-user">
-
-              <img
-                src="https://randomuser.me/api/portraits/women/68.jpg"
-                alt=""
-              >
-
-              <div>
-
-                <h4>Arush Aggarwal</h4>
-
-                <span>Senior Manager</span>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- DOTS -->
-      <div class="slider-dots">
-
-        <span></span>
-        <span></span>
-        <span class="active"></span>
-        <span></span>
-        <span></span>
-
-      </div>
-
-    </div>
-
-  </section>
-   
-
-  <!-- BLOG SECTION -->
-  <section class="blog-section">
-
-    <div class="container">
-
-      <div class="row g-5 align-items-start">
-
-        <!-- LEFT SIDE -->
-        <div class="col-lg-6">
-
-          <div class="section-title">
-
-            <h5>Our Blogs</h5>
+        <!-- Content -->
+        <div class="text">
 
             <h2>
-              Let's Checkout Our All
-              <br>
-              Latest News
+                We have more than
+                <span>270+</span>
+                Happy Customers
+                <br>
+                with Satisfaction
             </h2>
 
-          </div>
-
-          <!-- MAIN BLOG -->
-          <div class="main-blog">
-
-            <img
-              src="./itco.vercel.app/image (18).png"
-              alt=""
-              class="img-fluid"
-            >
-
-            <div class="blog-meta">
-
-              <span>
-                <i class="bi bi-person"></i>
-                Admin
-              </span>
-
-              <span>
-                <i class="bi bi-calendar-event"></i>
-                October 2, 2023
-              </span>
-
-            </div>
-
-            <h3>
-              Everything you need to learn about IT
-              Solution for your Company.
-            </h3>
-
-          </div>
-
         </div>
 
-        <!-- RIGHT SIDE -->
-        <div class="col-lg-6">
+        <!-- 5 Images -->
+        <div class="row justify-content-center align-items-center g-4 pt-4">
 
-          <!-- BLOG ITEM 1 -->
-          <div class="side-blog">
-
-            <img
-              src="./itco.vercel.app/image (19).png"
-              alt=""
-            >
-
-            <div class="side-blog-content">
-
-              <div class="blog-meta">
-
-                <span>
-                  <i class="bi bi-person"></i>
-                  Admin
-                </span>
-
-                <span>
-                  <i class="bi bi-calendar-event"></i>
-                  Dec 27, 2023
-                </span>
-
-              </div>
-
-              <h4>
-                Everything you need to learn about IT
-                Solution for your Company.
-              </h4>
-
-              <a href="#">
-                Read More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-
+            <div class="col-lg-2 col-md-4 col-6 text-center">
+                <img src="./itco.vercel.app/brand1.png"
+                     class="brand-logo img-fluid">
             </div>
 
-          </div>
-
-          <!-- BLOG ITEM 2 -->
-          <div class="side-blog">
-
-            <img
-              src="./itco.vercel.app/image (21).png"
-              alt=""
-            >
-
-            <div class="side-blog-content">
-
-              <div class="blog-meta">
-
-                <span>
-                  <i class="bi bi-person"></i>
-                  Admin
-                </span>
-
-                <span>
-                  <i class="bi bi-calendar-event"></i>
-                  Dec 27, 2023
-                </span>
-
-              </div>
-
-              <h4>
-                New Technology for System Security to
-                improve security system.
-              </h4>
-
-              <a href="#">
-                Read More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-
+            <div class="col-lg-2 col-md-4 col-6 text-center">
+                <img src="./itco.vercel.app/brand2.png"
+                     class="brand-logo img-fluid">
             </div>
 
-          </div>
-
-          <!-- BLOG ITEM 3 -->
-          <div class="side-blog border-0">
-
-            <img
-              src="./itco.vercel.app/image (22).png"
-              alt=""
-            >
-
-            <div class="side-blog-content">
-
-              <div class="blog-meta">
-
-                <span>
-                  <i class="bi bi-person"></i>
-                  Admin
-                </span>
-
-                <span>
-                  <i class="bi bi-calendar-event"></i>
-                  Dec 27, 2023
-                </span>
-
-              </div>
-
-              <h4>
-                Analytical Solutions lorem ipsum take a
-                trivial example, which of us ever under.
-              </h4>
-
-              <a href="#">
-                Read More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-
+            <div class="col-lg-2 col-md-4 col-6 text-center">
+                <img src="./itco.vercel.app/brand3.png"
+                     class="brand-logo img-fluid">
             </div>
 
-          </div>
+            <div class="col-lg-2 col-md-4 col-6 text-center">
+                <img src="./itco.vercel.app/brand4.png"
+                     class="brand-logo img-fluid">
+            </div>
 
+            <div class="col-lg-2 col-md-4 col-6 text-center">
+                <img src="./itco.vercel.app/brand5.png"
+                     class="brand-logo img-fluid">
+            </div>
         </div>
-
-      </div>
-
     </div>
+</section>
 
-  </section>
-   
-
-  <!-- FOOTER -->
-  <footer class="footer-section">
+<section class="clients">
 
     <div class="container">
 
-      <div class="row gy-5">
+        <!-- Heading -->
+        <div class="texts">
 
-        <!-- ABOUT -->
-        <div class="col-lg-4 col-md-6">
+            <h5>Clients Testimonials</h5>
 
-          <div class="footer-about">
-
-            <!-- LOGO -->
-            <div class="footer-logo">
-
-              <img
-                src="https://itco.vercel.app/assets/img/logo/logo-white.svg"
-                alt=""
-              >
-
-            </div>
-
-            <p>
-              Mauris ut enim sit amet lacus ornare
-              ullamcor. Praesent placerat neque purus
-              rhoncu tincidunt odio ultrices. Sed odio
-              feugiat feugiat felis.
-            </p>
-
-            <!-- SOCIAL -->
-            <div class="social-icons">
-
-              <a href="#">
-                <i class="bi bi-facebook"></i>
-              </a>
-
-              <a href="#">
-                <i class="bi bi-linkedin"></i>
-              </a>
-
-              <a href="#">
-                <i class="bi bi-twitter"></i>
-              </a>
-
-              <a href="#">
-                <i class="bi bi-instagram"></i>
-              </a>
-
-            </div>
-
-          </div>
+            <h2>What Our Customers Say</h2>
 
         </div>
 
-        <!-- SERVICES -->
-        <div class="col-lg-2 col-md-6">
+        <!-- Scrollable Testimonial Boxes -->
+        <div class="testimonial-scroll">
 
-          <div class="footer-links">
+            <div class="testimonial-wrapper">
 
-            <h3>Our Services</h3>
+                <!-- Box 1 -->
+                <div class="itco-testimonial-box">
 
-            <ul>
+                    <div class="top-area">
 
-              <li><a href="#">Tech Solutions</a></li>
-              <li><a href="#">Digital Marketing</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">IT Consulting</a></li>
-              <li><a href="#">Data Analytics</a></li>
+                        <div class="stars">
+                            ★★★★★
+                        </div>
 
-            </ul>
+                        <div class="quote">
+                            "
+                        </div>
 
-          </div>
+                    </div>
 
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (15).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Joshua Liddell</h5>
+
+                            <span>Company Owner</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 2 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (16).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Arush Aggarwal</h5>
+
+                            <span>Senior Manager</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 3 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (17).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Rosy Flower Gaggero</h5>
+
+                            <span>Ceo And Founder</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 4 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (15).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Joshua Liddell</h5>
+
+                            <span>Company Owner</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 5 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="Images/itco.vercel.app-image (16).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Arush Aggarwal</h5>
+
+                            <span>Senior Manager</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 6 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="Images/itco.vercel.app-image (15).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Rosy Flower Gaggero</h5>
+
+                            <span>Ceo And Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-        <!-- USEFUL LINKS -->
-        <div class="col-lg-2 col-md-6">
+<section class="blogs-section">
 
-          <div class="footer-links">
+    <div class="container">
 
-            <h3>Useful Links</h3>
 
-            <ul>
+        <!-- 2 Columns -->
+        <div class="row pt-5 g-5">
 
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Our Team</a></li>
-              <li><a href="#">Our Projects</a></li>
-              <li><a href="#">Faq ask</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Blog</a></li>
+            <!-- Left Column -->
+            <div class="col-lg-6">
 
-            </ul>
+                    <!-- Text -->
+                    <p class="blog-tag">
+                        Our Blogs
+                    </p>
 
-          </div>
+                    <!-- Heading -->
+                    <h3 class="main-blog-title">
+                        Let's Checkout Our All Latest News
+                    </h3>
 
+                    <!-- Image -->
+                    <img src="./itco.vercel.app/image (18).png"
+                         class="img-fluid main-blog-img">
+
+                    <!-- Admin + Date -->
+                    <div class="blog-info">
+
+                        <div class="info-item">
+                            <span>👤</span>
+                            <span>Admin</span>
+                        </div>
+
+                        <div class="info-item">
+                            <span>📅</span>
+                            <span>May 21, 2026</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Content -->
+                    <b class="blog-content">
+                        Everything you need to learn about IT <br> Solution for your Company.
+                    </b>
+
+                
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6">
+
+                <!-- Blog Item 1 -->
+                <div class="sides-blog">
+
+                    <img src="./itco.vercel.app/image (19).png"
+                         class="side-blog-img">
+
+                    <div class="side-blog-content">
+
+                        <div class="blog-info">
+
+                            <div class="info-item">
+                                <span>👤</span>
+                                <span>Admin</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span>📅</span>
+                                <span>May 21, 2026</span>
+                            </div>
+
+                        </div>
+
+                        <b>
+                            Everything you need to learn about IT Solution for your Company.
+                        </b>
+
+                        <br>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- Blog Item 2 -->
+                <div class="side-blog">
+
+                    <img src="./itco.vercel.app/image (20).png"
+                         class="side-blog-img">
+
+                    <div class="side-blog-content">
+
+                        <div class="blog-info">
+
+                            <div class="info-item">
+                                <span>👤</span>
+                                <span>Admin</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span>📅</span>
+                                <span>May 21, 2026</span>
+                            </div>
+
+                        </div>
+
+                        <b>
+                            New Technology for System Security to improve security system.
+                        </b>
+
+                        <br>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- Blog Item 3 -->
+                <div class="side-blog">
+
+                    <img src="./itco.vercel.app/image (21).png"
+                         class="side-blog-img">
+
+                    <div class="side-blog-content">
+
+                        <div class="blog-info">
+
+                            <div class="info-item">
+                                <span>👤</span>
+                                <span>Admin</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span>📅</span>
+                                <span>May 21, 2026</span>
+                            </div>
+
+                        </div>
+
+                        <b>
+                            Analytical Solutions lorem ispsum take a trivial example, which of us ever under.
+                        </b>
+
+                        <br>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-        <!-- RECENT POSTS -->
-        <div class="col-lg-4 col-md-6">
+<footer class="footer-section">
 
-          <div class="footer-posts">
+    <div class="container">
 
-            <h3>Recent Post</h3>
+        <div class="row g-5">
 
-            <!-- POST 1 -->
-            <div class="post-item">
+            <!-- Column 1 -->
+            <div class="col-lg-3 col-md-6">
 
-              <img
-                src="./itco.vercel.app/image (22).png"
-                alt=""
-              >
+                <!-- Logo -->
+                <img src="./itco.vercel.app/image (1).png"
+                     class="footer-logo">
 
-              <div>
+                <!-- Content -->
+                <p class="footer-text">
+                    Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices. Sed odio feugiat feugiat felis.
+                </p>
 
-                <span>
-                  <i class="bi bi-calendar-event"></i>
-                  Dec 27, 2023
-                </span>
+                <!-- Social Links -->
+                <div class="social-links">
 
-                <h4>
-                  Efficiency redefined
-                  through technology.
-                </h4>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
 
-              </div>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
 
             </div>
 
-            <!-- POST 2 -->
-            <div class="post-item">
+            <!-- Column 2 -->
+            <div class="col-lg-3 col-md-6">
 
-              <img
-                src="./itco.vercel.app/image (23).png"
-                alt=""
-              >
+                <h3 class="footer-title">
+                    Our Services
+                </h3>
 
-              <div>
+                <ul class="footer-links">
 
-                <span>
-                  <i class="bi bi-calendar-event"></i>
-                  Dec 27, 2023
-                </span>
+                    <li>
+                        <a href="#">Tech Solutions</a>
+                    </li>
 
-                <h4>
-                  IT Solution for your
-                  Company.
-                </h4>
+                    <li>
+                        <a href="#">Digital Marketing</a>
+                    </li>
 
-              </div>
+                    <li>
+                        <a href="#">Web Development</a>
+                    </li>
+
+                    <li>
+                        <a href="#">IT Consulting</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Data Analytics</a>
+                    </li>
+
+                </ul>
 
             </div>
 
-          </div>
+            <!-- Column 3 -->
+            <div class="col-lg-3 col-md-6">
 
+                <h3 class="footer-title">
+                    Useful Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">What We Do</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Team</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Faq Ask</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Recent Post
+                </h3>
+
+                <!-- Post 1 -->
+                <div class="recent-post">
+
+                    <img src="./itco.vercel.app/image (22).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            Efficiency redefined through technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Post 2 -->
+                <div class="recent-post">
+
+                    <img src="./itco.vercel.app/image (23).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            IT Solution for your Company.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
-
     </div>
 
-    <!-- COPYRIGHT -->
-    <div class="footer-bottom">
+<div class="footer-bottom">
 
-      <div class="container">
+    <b style="color: white; font-weight: 200;">
+        © <b style="color: #15b882;">Qubohub</b> 2024. All Rights Reserved
+    </b>
 
-        <p>
-          © <span>Qubohub</span> 2024. All Rights Reserved
-        </p>
+</div>
 
-      </div>
+</footer>
 
-    </div>
+<a href="#top" id="topBtn">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
 
-  </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
 </body>
 </html>
-
-
-
-
-

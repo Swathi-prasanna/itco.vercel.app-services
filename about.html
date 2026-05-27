@@ -1,261 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About || Itco Nextjs 14 Template</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <title>About Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
+    <link rel="stylesheet" href="css/flaticon.css">
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+    <!-- Icons (Bootstrap Icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
 </head>
 
 <body>
+    <header class="itco-header-area" id="mainHeader">
+    <div class="itco-topbar-area">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
 
-  <!-- TOP BAR -->
+                <div class="itco-topbar-area-left">
+                    <span><i class="fa-solid fa-location-dot"></i> Jones Street, New York, USA</span>|&emsp;
 
-  <div class="topbar">
-    <div class="container">
+                    <span><i class="fa-regular fa-envelope"></i> info@example.com</span>|&emsp;
 
-      <div class="row align-items-center">
+                    <span><i class="fa-solid fa-phone"></i> +70 264 566 579</span>
+                </div>
 
-        <div class="col-lg-8">
+                <div class="itco-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
 
-          <div class="top-left">
-
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-              Jones Street, New York, USA
-            </span>
-
-            <span>
-              <i class="fa-regular fa-envelope"></i>
-              info@example.com
-            </span>
-
-            <span>
-              <i class="fa-solid fa-phone"></i>
-              +70 264 566 579
-            </span>
-
-          </div>
-
+            </div>
         </div>
-
-        <div class="col-lg-4 text-end">
-
-          <div class="social-icons">
-
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
-          </div>
-
-        </div>
-
-      </div>
-
     </div>
-  </div>
 
-  <!-- NAVBAR -->
+<div class="container mt-3">
+    <nav class="navbar navbar-expand-lg itco-navbar">
 
-  <section class="hero-section">
+        <a class="navbar-brand" href="#">
+            <img src="./itco.vercel.app/image (1).png" alt="">
+        </a>
 
-    <div class="container">
-
-      <nav class="navbar navbar-expand-lg custom-navbar">
-
-        <div class="container-fluid">
-
-          <!-- LOGO -->
-
-          <a class="navbar-brand logo" href="#">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="">
-            Itco
-          </a>
-
-          <!-- TOGGLER -->
-
-          <button
-            class="navbar-toggler"
-            type="button"
+        <button class="navbar-toggler" type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
+            data-bs-target="#navbarNav">
+
             <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <!-- MENU -->
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
 
             <ul class="navbar-nav mx-auto">
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Home
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Home 1</a></li>
-                  <li><a class="dropdown-item" href="#">Home 2</a></li>
-                </ul>
-              </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-success"
+                        href="home.html">
 
-              <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
-              </li>
+                        Home
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Service 1</a></li>
-                  <li><a class="dropdown-item" href="#">Service 2</a></li>
-                </ul>
-              </li>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home One
+                            </a>
+                        </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Page 1</a></li>
-                  <li><a class="dropdown-item" href="#">Page 2</a></li>
-                </ul>
-              </li>
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Two
+                            </a>
+                        </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Blog
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog 1</a></li>
-                  <li><a class="dropdown-item" href="#">Blog 2</a></li>
-                </ul>
-              </li>
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="services.html">
+
+                        Services
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="service-details.html">
+                                Services Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="pages.html">
+
+                        Pages
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="team.html">
+                                Team
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Team Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="projects.html">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Projects Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Testimonials
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Price Plan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                404
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="#">
+
+                        Blog
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="blog.html">
+                                Blog Grid
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="blog-details.html">
+                                Blog Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
 
             </ul>
 
-            <!-- BUTTON -->
-
-            <a href="#" class="quote-btn">
-              Get A Free Quote
+            <a href="#" class="itco-quote-btn">
+                Get A Free Quote
             </a>
 
-          </div>
-
         </div>
 
-      </nav>
+    </nav>
+</div>
+</header>
 
-      <!-- HERO CONTENT -->
+    <section class="itco-hero-section pt-6">
+    <div class="container d-flex justify-content-between align-items-center">
+        
+        <!-- Left Side -->
+        <h1 class="text-white display-4 fw-bold mb-5" style="margin-bottom: 90px !important; margin-top: 50px !important;">
+            About
+        </h1>
 
-      <div class="hero-content">
+        <!-- Right Side -->
+        <div class="text-white fs-5">
+            <a href="home.html" class="text-white text-decoration-none fs-3" style="font-size: 16px !important;">
+                Home
+            </a>
 
-        <div class="row align-items-center">
+            <span class="fs-4" style="font-size: 26px !important; margin-top: 100px !important;">></span>
 
-          <div class="col-lg-6">
-
-            <h1>About</h1>
-
-          </div>
-
-          <div class="col-lg-6 text-lg-end">
-
-            <div class="breadcrumb-text">
-              Home
-              <i class="fa-solid fa-angle-right"></i>
-              <span>About</span>
-            </div>
-
-          </div>
-
+            <span class="fs-6" style="font-weight: 600;">About</span>
         </div>
-
-      </div>
 
     </div>
+</section>
 
-  </section>
-   
+<section class="about-section">
+<div class="container">
+<div class="row align-items-center">
 
-    <!-- ================= HERO SECTION ================= -->
+    <!-- LEFT SIDE -->
+    <div class="col-lg-6">
+        <div class="image-wrapper">
 
-    <section class="hero-section">
+            <div class="decor-lines"></div>
+
+            <div class="big-circle">
+                <img src="./itco.vercel.app/image (9).png" alt="">
+            </div>
+
+            <div class="small-circle">
+                <img src="./itco.vercel.app/image (10).png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="col-lg-6">
+        <div class="content">
+
+            <div class="sub-title">About Your Company</div>
+
+            <div class="main-title">
+                We Execute Our ideas From The Start to Finish
+            </div>
+
+            <p class="about-text">
+                Solve Business Problems And Automate Workflows With Artificial Work Intelligence-Based Solutions.
+                Unlock The Hidden Power Of The Data You Already Have And Hand Hampers The Creativity.
+            </p>
+
+            <div class="list">
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Development of Financial Models</b> <br>
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Nifty team is a diverse network of consultants</b> <br>
+                <i class="fa-solid fa-square-check" style="color: rgb(21, 181, 133);"></i> <b>Industry professionals with a global mindset</b>
+            </div>
+
+            <button class="btn btn-custom">Read More</button>
+
+        </div>
+    </div>
+
+</div>
+</div>
+</section>
+
+    <section class="business-wrapper">
 
         <div class="container">
 
-            <div class="row align-items-center">
+            <div class="row align-items-center g-5">
 
-                <!-- LEFT CONTENT -->
+                <!-- Left Content -->
+                <div class="col-lg-7">
 
-                <div class="col-lg-6">
-
-                    <h6 class="sub-title">
-                        Top IT Solution Services Team
+                    <h6 class="section-subtitle">
+                        Business Process
                     </h6>
 
-                    <h1 class="main-title">
-                        IT consulting service
-                        for your business.
-                    </h1>
+                    <h2 class="section-titles">
+                        Easy Way Build Success <br>
+                        your Buisness Pla
+                    </h2>
 
-                    <p class="hero-text">
-                        Leverage agile frameworks to provide a robust synopsis for high level
-                        overviews iterative approaches bring table survival.
+                    <p class="section-description">
+                        Solve Business Problems And Automate Workflows With Artificial Intelligence-Based Solutions. Unlock The Hidden Power Of The Data You Already Have And Hand.
                     </p>
 
-                    <div class="hero-btns">
+                    <!-- Progress 1 -->
+                    <div class="progress-item">
 
-                        <a href="#" class="btn btn-success custom-btn">
-                            Read More
-                        </a>
+                        <h5 class="progress-title">
+                            Productivity
+                        </h5>
 
-                        <a href="#" class="btn btn-dark custom-btn">
-                            Contact Us
-                        </a>
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:80%;">
+
+                                <div class="progress-percent">
+                                    80%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Progress 2 -->
+                    <div class="progress-item">
+
+                        <h5 class="progress-title">
+                            Digital Marketing
+                        </h5>
+
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:75%;">
+
+                                <div class="progress-percent">
+                                    75%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Progress 3 -->
+                    <div class="progress-item">
+
+                        <h5 class="progress-title">
+                            Technology
+                        </h5>
+
+                        <div class="custom-progress">
+
+                            <div class="progress-bar-custom" style="width:90%;">
+
+                                <div class="progress-percent">
+                                    90%
+                                </div>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
                 </div>
 
-                <!-- RIGHT IMAGE -->
+                <!-- Right Image -->
+                <div class="col-lg-4">
 
-                <div class="col-lg-6">
+                    <div class="business-image">
 
-                    <div class="image-wrapper">
+                        <img 
+                            src="./itco.vercel.app/image (14).png"
+                            alt="Business Image"
+                        >
 
-                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
-                            alt="Team Image"
-                            class="img-fluid main-image">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    <!-- Counter Section -->
+
+        <div class="container">
+
+            <div class="counter-box">
+
+                <div class="row text-center text-lg-start">
+
+                    <!-- Counter 1 -->
+                    <div class="col-lg-4 col-md-3">
+
+                        <div class="counter-item">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-gear-wide-connected"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    200+
+                                </h2>
+
+                                <p>
+                                    Team Member
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Counter 2 -->
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="counter-item">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-handshake"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    25K+
+                                </h2>
+
+                                <p>
+                                    Complete Project
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Counter 3 -->
+                    <div class="col-lg-4 col-md-12">
+
+                        <div class="counter-item counter-border-none">
+
+                            <div class="counter-icon">
+                                <i class="bi bi-people"></i>
+                            </div>
+
+                            <div class="counter-content">
+
+                                <h2>
+                                    18K+
+                                </h2>
+
+                                <p>
+                                    Client Review
+                                </p>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -267,7 +518,646 @@
 
     </section>
 
-</body>
+    <section class="clients">
 
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="texts">
+
+            <h5>Clients Testimonials</h5>
+
+            <h2>What Our Customers Say</h2>
+
+        </div>
+
+        <!-- Scrollable Testimonial Boxes -->
+        <div class="testimonial-scroll">
+
+            <div class="testimonial-wrapper">
+
+                <!-- Box 1 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (15).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Joshua Liddell</h5>
+
+                            <span>Company Owner</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 2 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (16).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Arush Aggarwal</h5>
+
+                            <span>Senior Manager</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 3 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (17).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Rosy Flower Gaggero</h5>
+
+                            <span>Ceo And Founder</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 4 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (15).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Joshua Liddell</h5>
+
+                            <span>Company Owner</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 5 -->
+                <div class="testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="itco-testimonial-box">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (17).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Arush Aggarwal</h5>
+
+                            <span>Senior Manager</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Box 6 -->
+                <div class="itco-testimonial-box">
+
+                    <div class="top-area">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="quote">
+                            "
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial-content">
+
+                        <p>
+                            "I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your expectation! and quick feedback. Will definitely work with again!"
+                        </p>
+
+                    </div>
+
+                    <div class="profile-section">
+
+                        <img src="./itco.vercel.app/image (17).png"
+                             class="profile-img">
+
+                        <div class="profile-text">
+
+                            <h5>Rosy Flower Gaggero</h5>
+
+                            <span>Ceo And Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="expert-section py-5">
+
+    <div class="container text-center">
+
+        <div class="expert-header">
+            
+            <!-- TOP TEXT -->
+            <div class="col-lg-8 col-md-8 col-12">
+                <p class="expert-subtitles">Our Team Members</p>
+                <h1 class="expert-title mb-5">
+                    Building A Smarter future <br>
+                    Through IT
+                </h1>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="expert-arrows">
+                    <button class="arrow-btn" id="prevBtn">
+                        &#8592;
+                    </button>
+
+                    <button class="arrow-btn" id="nextBtn">
+                        &#8594;
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- HORIZONTAL SCROLL WRAPPER -->
+        <div class="team-scroll-wrapper">
+
+            <div class="team-scroll">
+
+                <!-- CARD 1 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src=".">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Edoardo Romussi</b>
+                        </a>
+                        <p class="expert-role">UI/UX Designer</p>
+                    </div>
+
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src="./itco.vercel.app/itco.vercel.app-image (8).png" alt="">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Jessica James</b>
+                        </a>
+                        <p class="expert-role">Marketing Coordinator</p>
+                    </div>
+
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src="./itco.vercel.app/itco.vercel.app-image (9).png">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Ardian Williams</b>
+                        </a>
+                        <p class="expert-role">Web Designer</p>
+                    </div>
+
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src="./itco.vercel.app/itco.vercel.app-image (10).png" alt="">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Laci Pletcher</b>
+                        </a>
+                        <p class="expert-role">Process Analyst</p>
+                    </div>
+
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src="./itco.vercel.app/itco.vercel.app-image (11).png" alt="">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Alex Brown</b>
+                        </a>
+                        <p class="expert-role">Co-Founder</p>
+                    </div>
+
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="expert-card">
+
+                    <div class="expert-image-box">
+                        <img src="./itco.vercel.app/itco.vercel.app-image (12).png" alt="">
+
+                        <div class="expert-social-menu">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="expert-content">
+                        <a href="home.html" class="expert-name">
+                            <b>Rebecca Davis</b>
+                        </a>
+                        <p class="expert-role">Web Developer</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="subscribe-box mt-5 p-4 d-flex flex-wrap align-items-center justify-content-between">
+
+            <h4 class="text-white fw-bold mb-3 mb-md-0">
+                Subscribe to Our Newsletter for daily Updates
+            </h4>
+
+            <div class="subscribe-form d-flex gap-2">
+                <input type="email" placeholder="Enter Your Email" class="form-control">
+                <button type="button" class="btn btn-light fw-semibold">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <!-- Column 1 -->
+            <div class="col-lg-3 col-md-6">
+
+                <!-- Logo -->
+                <img src="./itco.vercel.app/image (1).png"
+                     class="footer-logo">
+
+                <!-- Content -->
+                <p class="footer-text">
+                    Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices. Sed odio feugiat feugiat felis.
+                </p>
+
+                <!-- Social Links -->
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Our Services
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">Tech Solutions</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Digital Marketing</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Web Development</a>
+                    </li>
+
+                    <li>
+                        <a href="#">IT Consulting</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Data Analytics</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Useful Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">What We Do</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Team</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Faq Ask</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Recent Post
+                </h3>
+
+                <!-- Post 1 -->
+                <div class="recent-post">
+
+                    <img src="./itco.vercel.app/image (14).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            Efficiency redefined through technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Post 2 -->
+                <div class="recent-post">
+
+                    <img src="./itco.vercel.app/itco.vercel.app-image (15).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            IT Solution for your Company.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer-bottom">
+
+    <b style="color: white; font-weight: 200;">
+        © <b style="color: #15b882;">Qubohub</b> 2024. All Rights Reserved
+    </b>
+
+</div>
+
+</footer>
+
+<a href="#top" id="topBtn">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
 </html>
-  
